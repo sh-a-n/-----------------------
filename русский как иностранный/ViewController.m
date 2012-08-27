@@ -13,22 +13,43 @@
 @end
 
 @implementation ViewController
+@synthesize bigLabel;
+@synthesize smallLabel;
+@synthesize trainingButton;
+@synthesize testButton;
+@synthesize settingsButton;
+@synthesize statButton;
+@synthesize aboutButton;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.navigationController.navigationBar.hidden = YES;  
+    self.navigationController.toolbar.hidden = YES;// !!! эти две стрчки не трогаем. Будем использовать собственные navigatiobar и toolBar
+    
+    [testButton setEnabled:NO];
+    [settingsButton setEnabled:NO];
+    [statButton setEnabled:NO];
+    [aboutButton setEnabled:NO];
 }
 
 - (void)viewDidUnload
 {
+    [self setBigLabel:nil];
+    [self setSmallLabel:nil];
+    [self setTrainingButton:nil];
+    [self setTestButton:nil];
+    [self setSettingsButton:nil];
+    [self setStatButton:nil];
+    [self setAboutButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return ((interfaceOrientation != UIInterfaceOrientationPortrait)&&(interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown));
 }
 
 @end
