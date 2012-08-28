@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE54859F15ECE800009D59BB /* FilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE54859A15ECE7FF009D59BB /* FilmViewController.m */; };
+		CE5485A015ECE800009D59BB /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54859B15ECE7FF009D59BB /* FilmViewController.xib */; };
+		CE5485B215ECEBC3009D59BB /* ListeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5485B015ECEBC3009D59BB /* ListeningViewController.m */; };
+		CE5485B315ECEBC3009D59BB /* ListeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5485B115ECEBC3009D59BB /* ListeningViewController.xib */; };
 		CEAD583D15EB56B1005E4C73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD583C15EB56B1005E4C73 /* UIKit.framework */; };
 		CEAD583F15EB56B1005E4C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD583E15EB56B1005E4C73 /* Foundation.framework */; };
 		CEAD584115EB56B1005E4C73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD584015EB56B1005E4C73 /* CoreGraphics.framework */; };
@@ -73,9 +77,19 @@
 		CEAD58DC15EB5BBD005E4C73 /* textback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A515EB5BBD005E4C73 /* textback@2x.png */; };
 		CEAD58DD15EB5BBD005E4C73 /* TimerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A615EB5BBD005E4C73 /* TimerBack.png */; };
 		CEAD58DE15EB5BBD005E4C73 /* TimerBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A715EB5BBD005E4C73 /* TimerBack@2x.png */; };
+		CEB90C5215ECA91A000601E9 /* TrainingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB90C5015ECA91A000601E9 /* TrainingMenuViewController.m */; };
+		CEB90C5315ECA91A000601E9 /* TrainingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB90C5115ECA91A000601E9 /* TrainingMenuViewController.xib */; };
+		CEB90C5C15ECB3A8000601E9 /* TrainingSubMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB90C5A15ECB3A8000601E9 /* TrainingSubMenuViewController.m */; };
+		CEB90C5D15ECB3A8000601E9 /* TrainingSubMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB90C5B15ECB3A8000601E9 /* TrainingSubMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE54859915ECE7FF009D59BB /* FilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmViewController.h; sourceTree = "<group>"; };
+		CE54859A15ECE7FF009D59BB /* FilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmViewController.m; sourceTree = "<group>"; };
+		CE54859B15ECE7FF009D59BB /* FilmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmViewController.xib; sourceTree = "<group>"; };
+		CE5485B015ECEBC3009D59BB /* ListeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeningViewController.m; sourceTree = "<group>"; };
+		CE5485B115ECEBC3009D59BB /* ListeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListeningViewController.xib; sourceTree = "<group>"; };
+		CE5485B515ECED19009D59BB /* ListeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeningViewController.h; sourceTree = "<group>"; };
 		CEAD583815EB56B1005E4C73 /* русский как иностранный.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "русский как иностранный.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD583C15EB56B1005E4C73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEAD583E15EB56B1005E4C73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +162,12 @@
 		CEAD58A515EB5BBD005E4C73 /* textback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textback@2x.png"; sourceTree = "<group>"; };
 		CEAD58A615EB5BBD005E4C73 /* TimerBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimerBack.png; sourceTree = "<group>"; };
 		CEAD58A715EB5BBD005E4C73 /* TimerBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TimerBack@2x.png"; sourceTree = "<group>"; };
+		CEB90C4F15ECA91A000601E9 /* TrainingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingMenuViewController.h; sourceTree = "<group>"; };
+		CEB90C5015ECA91A000601E9 /* TrainingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingMenuViewController.m; sourceTree = "<group>"; };
+		CEB90C5115ECA91A000601E9 /* TrainingMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingMenuViewController.xib; sourceTree = "<group>"; };
+		CEB90C5915ECB3A8000601E9 /* TrainingSubMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingSubMenuViewController.h; sourceTree = "<group>"; };
+		CEB90C5A15ECB3A8000601E9 /* TrainingSubMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingSubMenuViewController.m; sourceTree = "<group>"; };
+		CEB90C5B15ECB3A8000601E9 /* TrainingSubMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingSubMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +186,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE5485A415ECE817009D59BB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD584B15EB56B1005E4C73 /* AppDelegate.h */,
+				CEAD584C15EB56B1005E4C73 /* AppDelegate.m */,
+				CEAD584E15EB56B1005E4C73 /* ViewController.h */,
+				CEAD584F15EB56B1005E4C73 /* ViewController.m */,
+				CEAD585115EB56B1005E4C73 /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CE5485A515ECE83A009D59BB /* Listening */ = {
+			isa = PBXGroup;
+			children = (
+				CE54859915ECE7FF009D59BB /* FilmViewController.h */,
+				CE54859A15ECE7FF009D59BB /* FilmViewController.m */,
+				CE54859B15ECE7FF009D59BB /* FilmViewController.xib */,
+				CE5485B515ECED19009D59BB /* ListeningViewController.h */,
+				CE5485B015ECEBC3009D59BB /* ListeningViewController.m */,
+				CE5485B115ECEBC3009D59BB /* ListeningViewController.xib */,
+			);
+			name = Listening;
+			sourceTree = "<group>";
+		};
+		CE5485A615ECE85E009D59BB /* TrainingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CEB90C4F15ECA91A000601E9 /* TrainingMenuViewController.h */,
+				CEB90C5015ECA91A000601E9 /* TrainingMenuViewController.m */,
+				CEB90C5115ECA91A000601E9 /* TrainingMenuViewController.xib */,
+				CEB90C5915ECB3A8000601E9 /* TrainingSubMenuViewController.h */,
+				CEB90C5A15ECB3A8000601E9 /* TrainingSubMenuViewController.m */,
+				CEB90C5B15ECB3A8000601E9 /* TrainingSubMenuViewController.xib */,
+			);
+			name = TrainingMenu;
+			sourceTree = "<group>";
+		};
 		CEAD582D15EB56B0005E4C73 = {
 			isa = PBXGroup;
 			children = (
@@ -198,13 +256,11 @@
 		CEAD584215EB56B1005E4C73 /* русский как иностранный */ = {
 			isa = PBXGroup;
 			children = (
+				CE5485A615ECE85E009D59BB /* TrainingMenu */,
+				CE5485A515ECE83A009D59BB /* Listening */,
+				CE5485A415ECE817009D59BB /* ViewController */,
 				CEAD585D15EB577E005E4C73 /* SoundPlayer.h */,
 				CEAD585E15EB577E005E4C73 /* SoundPlayer.m */,
-				CEAD584B15EB56B1005E4C73 /* AppDelegate.h */,
-				CEAD584C15EB56B1005E4C73 /* AppDelegate.m */,
-				CEAD584E15EB56B1005E4C73 /* ViewController.h */,
-				CEAD584F15EB56B1005E4C73 /* ViewController.m */,
-				CEAD585115EB56B1005E4C73 /* ViewController.xib */,
 				CEAD584315EB56B1005E4C73 /* Supporting Files */,
 			);
 			path = "русский как иностранный";
@@ -407,6 +463,10 @@
 				CEAD58DC15EB5BBD005E4C73 /* textback@2x.png in Resources */,
 				CEAD58DD15EB5BBD005E4C73 /* TimerBack.png in Resources */,
 				CEAD58DE15EB5BBD005E4C73 /* TimerBack@2x.png in Resources */,
+				CEB90C5315ECA91A000601E9 /* TrainingMenuViewController.xib in Resources */,
+				CEB90C5D15ECB3A8000601E9 /* TrainingSubMenuViewController.xib in Resources */,
+				CE5485A015ECE800009D59BB /* FilmViewController.xib in Resources */,
+				CE5485B315ECEBC3009D59BB /* ListeningViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +481,10 @@
 				CEAD584D15EB56B1005E4C73 /* AppDelegate.m in Sources */,
 				CEAD585015EB56B1005E4C73 /* ViewController.m in Sources */,
 				CEAD585F15EB577E005E4C73 /* SoundPlayer.m in Sources */,
+				CEB90C5215ECA91A000601E9 /* TrainingMenuViewController.m in Sources */,
+				CEB90C5C15ECB3A8000601E9 /* TrainingSubMenuViewController.m in Sources */,
+				CE54859F15ECE800009D59BB /* FilmViewController.m in Sources */,
+				CE5485B215ECEBC3009D59BB /* ListeningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
