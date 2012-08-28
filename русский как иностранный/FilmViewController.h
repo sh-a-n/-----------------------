@@ -10,9 +10,9 @@
 
 @interface FilmViewController : UIViewController
 
-
+@property (nonatomic, retain) UIImage * choosedPicture;
 @property (nonatomic, retain) NSArray * filmImages;
-@property (nonatomic, retain) NSArray * bigImages;
+@property (nonatomic, retain) NSMutableArray * bigImages;
 
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 

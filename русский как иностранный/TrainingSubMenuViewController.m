@@ -7,13 +7,16 @@
 //
 
 #import "TrainingSubMenuViewController.h"
+#import "ListeningViewController.h"
+#import "FilmViewController.h"
 
 @interface TrainingSubMenuViewController ()
 
 @end
 
 @implementation TrainingSubMenuViewController
-
+@synthesize listeningViewController;
+@synthesize filmViewController;
 @synthesize startData;
 @synthesize navigationBarLabel;
 @synthesize navigationBar;
@@ -103,7 +106,8 @@
 {
     if (indexPath.row == [choosed indexOfObject:@"Аудирование"]) {
         NSLog(@"Аудирование");
-        
+        self.listeningViewController = [[ListeningViewController alloc]initWithNibName:@"ListeningViewController" bundle:nil];
+        [self.navigationController pushViewController:listeningViewController animated:YES];
     }
     else {
         if (indexPath.row == [choosed indexOfObject:@"Картинка-слово"]) {
@@ -133,6 +137,8 @@
     [dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0.0]];
     NSString *timeString=[dateFormatter stringFromDate:timerDate];
     timerLabel.text = timeString;
+    listeningViewController.timerLabel.text = timeString;
+    listeningViewController.filmViewController.timerLabel.text = timeString;
     //[dateFormatter release];
 }
 

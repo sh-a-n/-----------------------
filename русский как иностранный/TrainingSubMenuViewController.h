@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class ListeningViewController;
+@class FilmViewController;
+
 @interface TrainingSubMenuViewController : UIViewController
 {
     NSMutableArray *choosed;
     NSData * startDate;
 }
+
+@property (strong, nonatomic) ListeningViewController * listeningViewController;
+@property (strong, nonatomic) FilmViewController * filmViewController;
 @property (nonatomic, retain) NSData * startData;
 @property (nonatomic, retain) NSTimer * timer;
 @property (weak, nonatomic) IBOutlet UILabel *navigationBarLabel;

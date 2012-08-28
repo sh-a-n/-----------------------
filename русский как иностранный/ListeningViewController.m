@@ -47,8 +47,7 @@
     [background setImage:[UIImage imageNamed:@"background.png"]];
     [progressBar setProgressImage:[UIImage imageNamed:@"pattern.png"]];
     [progressBar setTrackImage:[UIImage imageNamed:@"ProgressBar.png"]];
-    self.navigationController.navigationBar.hidden = YES;
-    self.navigationController.toolbar.hidden = YES;
+    
     [navigationBar setFrame:CGRectMake(58, 0, 422, 38)];   
     [navigationBar setBackgroundImage:[UIImage imageNamed:@"NavigationBar.png"] forBarMetrics:UIBarMetricsDefault];
     [toolBar setBackgroundImage:[UIImage imageNamed:@"TabBar.png"] forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
@@ -59,6 +58,7 @@
     [playButton setImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
     [progressBar setProgress:0];
     [timerBack setFrame:CGRectMake(0, 0, 58, 32)];
+    rewardButton.transform = CGAffineTransformMakeRotation(3.141592653589793); 
     self.myTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(changeProgress) userInfo:nil repeats:YES];
     
 }

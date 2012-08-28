@@ -38,6 +38,7 @@
 @synthesize filmImage5;
 @synthesize filmImages;
 @synthesize bigImages;
+@synthesize choosedPicture;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -68,6 +69,19 @@
     }
     [bigImagesScroller setContentSize:CGSizeMake(1600, 152)];
     [filmImagesScroller setContentSize:CGSizeMake(480, 55)];
+    choosedPicture = [UIImage imageNamed:@"film.png"];
+    for (UIImageView * filmImage in filmImages) {
+        UITapGestureRecognizer * singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
+        [filmImage setGestureRecognizers:[NSArray arrayWithObjects:singleTap, nil]];
+        //[filmImage setUserInteractionEnabled:YES];
+        //[filmImage setMultipleTouchEnabled:YES];
+    }
+    for (UIImageView * bigImage in bigImages) {
+        UITapGestureRecognizer * singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCapturedBig:)];
+        [bigImage setGestureRecognizers:[NSArray arrayWithObjects:singleTap, nil]];
+        //[filmImage setUserInteractionEnabled:YES];
+        //[filmImage setMultipleTouchEnabled:YES];
+    }
 }
 
 - (void)viewDidUnload
@@ -107,5 +121,26 @@
 - (IBAction)backButtonSelector:(id)sender {
     //UIViewController * viewController = [[UIViewController alloc]initWithNibName:@"ViewController" bundle:nil];
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
+{
+    UIImageView * tappedView = [gesture.view hitTest:[gesture locationInView:gesture.view]  withEvent:nil];
+    if (tappedView.image == [UIImage imageNamed:@"film.png"]) {
+        tappedView.image = choosedPicture;
+        choosedPicture = [UIImage imageNamed:@"film.png"];
+    }
+    else {
+        choosedPicture = tappedView.image;
+        tappedView.image = [UIImage imageNamed:@"film.png"];
+    }
+    //NSLog(@"Touch event on view: %@",[tappedView class]);
+}
+
+- (void)singleTapGestureCapturedBig:(UITapGestureRecognizer *)gesture
+{
+    UIImageView * tappedView = [gesture.view hitTest:[gesture locationInView:gesture.view]  withEvent:nil];
+    choosedPicture = tappedView.image;
+    //NSLog(@"Touch event on view: %@",[tappedView class]);
 }
 @end
