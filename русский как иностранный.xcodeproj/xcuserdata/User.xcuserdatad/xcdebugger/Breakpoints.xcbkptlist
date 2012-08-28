@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/ViewController.m"
+         timestampString = "367832427.376191"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "58"
+         endingLineNumber = "58"
+         landmarkName = "-trainingButtonTap:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
+         timestampString = "367846660.093203"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "97"
+         endingLineNumber = "97"
+         landmarkName = "-tableView:cellForRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
+         timestampString = "367846660.093203"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "85"
+         endingLineNumber = "85"
+         landmarkName = "-tableView:numberOfRowsInSection:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingMenuViewController.m"
+         timestampString = "367846529.943767"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "117"
+         endingLineNumber = "117"
+         landmarkName = "-okButtonSelector:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
+         timestampString = "367846660.093203"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "104"
+         endingLineNumber = "104"
+         landmarkName = "-tableView:didSelectRowAtIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
