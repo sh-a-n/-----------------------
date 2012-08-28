@@ -11,6 +11,7 @@
 		CE5485A015ECE800009D59BB /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE54859B15ECE7FF009D59BB /* FilmViewController.xib */; };
 		CE5485B215ECEBC3009D59BB /* ListeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5485B015ECEBC3009D59BB /* ListeningViewController.m */; };
 		CE5485B315ECEBC3009D59BB /* ListeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5485B115ECEBC3009D59BB /* ListeningViewController.xib */; };
+		CEA55C6015ECFCA9003442F7 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA55C5F15ECFCA9003442F7 /* audio.mp3 */; };
 		CEAD583D15EB56B1005E4C73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD583C15EB56B1005E4C73 /* UIKit.framework */; };
 		CEAD583F15EB56B1005E4C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD583E15EB56B1005E4C73 /* Foundation.framework */; };
 		CEAD584115EB56B1005E4C73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD584015EB56B1005E4C73 /* CoreGraphics.framework */; };
@@ -66,8 +67,8 @@
 		CEAD58D115EB5BBD005E4C73 /* ProgressBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589A15EB5BBD005E4C73 /* ProgressBar.png */; };
 		CEAD58D215EB5BBD005E4C73 /* ProgressBar.psd in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589B15EB5BBD005E4C73 /* ProgressBar.psd */; };
 		CEAD58D315EB5BBD005E4C73 /* ProgressBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589C15EB5BBD005E4C73 /* ProgressBar@2x.png */; };
-		CEAD58D415EB5BBD005E4C73 /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589D15EB5BBD005E4C73 /* repeat.png */; };
-		CEAD58D515EB5BBD005E4C73 /* repeat_s.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589E15EB5BBD005E4C73 /* repeat_s.png */; };
+		CEAD58D415EB5BBD005E4C73 /* repeat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589D15EB5BBD005E4C73 /* repeat@2x.png */; };
+		CEAD58D515EB5BBD005E4C73 /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589E15EB5BBD005E4C73 /* repeat.png */; };
 		CEAD58D615EB5BBD005E4C73 /* TabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD589F15EB5BBD005E4C73 /* TabBar.png */; };
 		CEAD58D715EB5BBD005E4C73 /* TabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A015EB5BBD005E4C73 /* TabBar@2x.png */; };
 		CEAD58D815EB5BBD005E4C73 /* Tabbutton_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A115EB5BBD005E4C73 /* Tabbutton_b@2x.png */; };
@@ -90,6 +91,7 @@
 		CE5485B015ECEBC3009D59BB /* ListeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeningViewController.m; sourceTree = "<group>"; };
 		CE5485B115ECEBC3009D59BB /* ListeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListeningViewController.xib; sourceTree = "<group>"; };
 		CE5485B515ECED19009D59BB /* ListeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeningViewController.h; sourceTree = "<group>"; };
+		CEA55C5F15ECFCA9003442F7 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		CEAD583815EB56B1005E4C73 /* русский как иностранный.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "русский как иностранный.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD583C15EB56B1005E4C73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEAD583E15EB56B1005E4C73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,8 +153,8 @@
 		CEAD589A15EB5BBD005E4C73 /* ProgressBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgressBar.png; sourceTree = "<group>"; };
 		CEAD589B15EB5BBD005E4C73 /* ProgressBar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProgressBar.psd; sourceTree = "<group>"; };
 		CEAD589C15EB5BBD005E4C73 /* ProgressBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProgressBar@2x.png"; sourceTree = "<group>"; };
-		CEAD589D15EB5BBD005E4C73 /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat.png; sourceTree = "<group>"; };
-		CEAD589E15EB5BBD005E4C73 /* repeat_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat_s.png; sourceTree = "<group>"; };
+		CEAD589D15EB5BBD005E4C73 /* repeat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repeat@2x.png"; sourceTree = "<group>"; };
+		CEAD589E15EB5BBD005E4C73 /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat.png; sourceTree = "<group>"; };
 		CEAD589F15EB5BBD005E4C73 /* TabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar.png; sourceTree = "<group>"; };
 		CEAD58A015EB5BBD005E4C73 /* TabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar@2x.png"; sourceTree = "<group>"; };
 		CEAD58A115EB5BBD005E4C73 /* Tabbutton_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabbutton_b@2x.png"; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 		CEAD586E15EB5BBD005E4C73 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				CEA55C5F15ECFCA9003442F7 /* audio.mp3 */,
 			);
 			path = audio;
 			sourceTree = SOURCE_ROOT;
@@ -341,8 +344,8 @@
 				CEAD589A15EB5BBD005E4C73 /* ProgressBar.png */,
 				CEAD589B15EB5BBD005E4C73 /* ProgressBar.psd */,
 				CEAD589C15EB5BBD005E4C73 /* ProgressBar@2x.png */,
-				CEAD589D15EB5BBD005E4C73 /* repeat.png */,
-				CEAD589E15EB5BBD005E4C73 /* repeat_s.png */,
+				CEAD589D15EB5BBD005E4C73 /* repeat@2x.png */,
+				CEAD589E15EB5BBD005E4C73 /* repeat.png */,
 				CEAD589F15EB5BBD005E4C73 /* TabBar.png */,
 				CEAD58A015EB5BBD005E4C73 /* TabBar@2x.png */,
 				CEAD58A115EB5BBD005E4C73 /* Tabbutton_b@2x.png */,
@@ -452,8 +455,8 @@
 				CEAD58D115EB5BBD005E4C73 /* ProgressBar.png in Resources */,
 				CEAD58D215EB5BBD005E4C73 /* ProgressBar.psd in Resources */,
 				CEAD58D315EB5BBD005E4C73 /* ProgressBar@2x.png in Resources */,
-				CEAD58D415EB5BBD005E4C73 /* repeat.png in Resources */,
-				CEAD58D515EB5BBD005E4C73 /* repeat_s.png in Resources */,
+				CEAD58D415EB5BBD005E4C73 /* repeat@2x.png in Resources */,
+				CEAD58D515EB5BBD005E4C73 /* repeat.png in Resources */,
 				CEAD58D615EB5BBD005E4C73 /* TabBar.png in Resources */,
 				CEAD58D715EB5BBD005E4C73 /* TabBar@2x.png in Resources */,
 				CEAD58D815EB5BBD005E4C73 /* Tabbutton_b@2x.png in Resources */,
@@ -467,6 +470,7 @@
 				CEB90C5D15ECB3A8000601E9 /* TrainingSubMenuViewController.xib in Resources */,
 				CE5485A015ECE800009D59BB /* FilmViewController.xib in Resources */,
 				CE5485B315ECEBC3009D59BB /* ListeningViewController.xib in Resources */,
+				CEA55C6015ECFCA9003442F7 /* audio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
