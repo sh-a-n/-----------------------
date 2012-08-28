@@ -9,6 +9,8 @@
 #import "TrainingSubMenuViewController.h"
 #import "ListeningViewController.h"
 #import "FilmViewController.h"
+#import "Picture_wordViewController.h"
+#import "GroupingViewController.h"
 
 @interface TrainingSubMenuViewController ()
 
@@ -17,6 +19,8 @@
 @implementation TrainingSubMenuViewController
 @synthesize listeningViewController;
 @synthesize filmViewController;
+@synthesize groupingViewController;
+@synthesize picture_wordViewController;
 @synthesize startData;
 @synthesize navigationBarLabel;
 @synthesize navigationBar;
@@ -112,10 +116,14 @@
     else {
         if (indexPath.row == [choosed indexOfObject:@"Картинка-слово"]) {
             NSLog(@"Картинка-слово");
+            self.picture_wordViewController = [[Picture_wordViewController alloc]initWithNibName:@"Picture_wordViewController" bundle:nil];
+            [self.navigationController pushViewController:picture_wordViewController animated:YES];
         }
         else {
             if (indexPath.row == [choosed indexOfObject:@"Распределение по группам"]) {
                 NSLog(@"Распределение по группам");
+                self.groupingViewController = [[GroupingViewController alloc]initWithNibName:@"GroupingViewController" bundle:nil];
+                [self.navigationController pushViewController:groupingViewController animated:YES];
             }
         }
     }
@@ -139,6 +147,8 @@
     timerLabel.text = timeString;
     listeningViewController.timerLabel.text = timeString;
     listeningViewController.filmViewController.timerLabel.text = timeString;
+    picture_wordViewController.timerLabel.text = timeString;
+    groupingViewController.timerLabel.text = timeString;
     //[dateFormatter release];
 }
 

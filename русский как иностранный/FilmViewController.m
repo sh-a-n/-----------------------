@@ -123,6 +123,11 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (IBAction)okButtonSelector:(id)sender {
+    NSArray * controllers = self.navigationController.viewControllers;
+    [self.navigationController popToViewController:[controllers objectAtIndex:2] animated:YES];
+}
+
 - (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
 {
     UIImageView * tappedView = [gesture.view hitTest:[gesture locationInView:gesture.view]  withEvent:nil];

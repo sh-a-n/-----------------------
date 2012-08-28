@@ -78,6 +78,10 @@
 		CEAD58DC15EB5BBD005E4C73 /* textback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A515EB5BBD005E4C73 /* textback@2x.png */; };
 		CEAD58DD15EB5BBD005E4C73 /* TimerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A615EB5BBD005E4C73 /* TimerBack.png */; };
 		CEAD58DE15EB5BBD005E4C73 /* TimerBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAD58A715EB5BBD005E4C73 /* TimerBack@2x.png */; };
+		CEB731F415ED32C6002AB5D9 /* GroupingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB731F215ED32C6002AB5D9 /* GroupingViewController.m */; };
+		CEB731F515ED32C6002AB5D9 /* GroupingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB731F315ED32C6002AB5D9 /* GroupingViewController.xib */; };
+		CEB731FA15ED32F4002AB5D9 /* Picture_wordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB731F815ED32F4002AB5D9 /* Picture_wordViewController.m */; };
+		CEB731FB15ED32F4002AB5D9 /* Picture_wordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB731F915ED32F4002AB5D9 /* Picture_wordViewController.xib */; };
 		CEB90C5215ECA91A000601E9 /* TrainingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB90C5015ECA91A000601E9 /* TrainingMenuViewController.m */; };
 		CEB90C5315ECA91A000601E9 /* TrainingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB90C5115ECA91A000601E9 /* TrainingMenuViewController.xib */; };
 		CEB90C5C15ECB3A8000601E9 /* TrainingSubMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB90C5A15ECB3A8000601E9 /* TrainingSubMenuViewController.m */; };
@@ -96,15 +100,12 @@
 		CEAD583C15EB56B1005E4C73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEAD583E15EB56B1005E4C73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEAD584015EB56B1005E4C73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEAD584415EB56B1005E4C73 /* русский как иностранный-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "русский как иностранный-Info.plist"; sourceTree = "<group>"; };
-		CEAD584615EB56B1005E4C73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEAD584815EB56B1005E4C73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEAD584A15EB56B1005E4C73 /* русский как иностранный-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "русский как иностранный-Prefix.pch"; sourceTree = "<group>"; };
 		CEAD584B15EB56B1005E4C73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEAD584C15EB56B1005E4C73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEAD584E15EB56B1005E4C73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEAD584F15EB56B1005E4C73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CEAD585215EB56B1005E4C73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CEAD585915EB56D4005E4C73 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CEAD585B15EB56DA005E4C73 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CEAD585D15EB577E005E4C73 /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
@@ -164,6 +165,14 @@
 		CEAD58A515EB5BBD005E4C73 /* textback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textback@2x.png"; sourceTree = "<group>"; };
 		CEAD58A615EB5BBD005E4C73 /* TimerBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimerBack.png; sourceTree = "<group>"; };
 		CEAD58A715EB5BBD005E4C73 /* TimerBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TimerBack@2x.png"; sourceTree = "<group>"; };
+		CEB731EE15ED3095002AB5D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "/Users/User/Desktop/projects/русский как иностранный/русский как иностранный/ru.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+		CEB731EF15ED3095002AB5D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "/Users/User/Desktop/projects/русский как иностранный/русский как иностранный/ru.lproj/ViewController.xib"; sourceTree = "<absolute>"; };
+		CEB731F115ED32C6002AB5D9 /* GroupingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupingViewController.h; sourceTree = "<group>"; };
+		CEB731F215ED32C6002AB5D9 /* GroupingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupingViewController.m; sourceTree = "<group>"; };
+		CEB731F315ED32C6002AB5D9 /* GroupingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupingViewController.xib; sourceTree = "<group>"; };
+		CEB731F715ED32F4002AB5D9 /* Picture_wordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture_wordViewController.h; sourceTree = "<group>"; };
+		CEB731F815ED32F4002AB5D9 /* Picture_wordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture_wordViewController.m; sourceTree = "<group>"; };
+		CEB731F915ED32F4002AB5D9 /* Picture_wordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Picture_wordViewController.xib; sourceTree = "<group>"; };
 		CEB90C4F15ECA91A000601E9 /* TrainingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingMenuViewController.h; sourceTree = "<group>"; };
 		CEB90C5015ECA91A000601E9 /* TrainingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingMenuViewController.m; sourceTree = "<group>"; };
 		CEB90C5115ECA91A000601E9 /* TrainingMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingMenuViewController.xib; sourceTree = "<group>"; };
@@ -231,7 +240,7 @@
 			children = (
 				CEAD585B15EB56DA005E4C73 /* AVFoundation.framework */,
 				CEAD585915EB56D4005E4C73 /* AudioToolbox.framework */,
-				CEAD584215EB56B1005E4C73 /* русский как иностранный */,
+				CEAD584215EB56B1005E4C73 /* русский как иностранный */,
 				CEAD583B15EB56B1005E4C73 /* Frameworks */,
 				CEAD583915EB56B1005E4C73 /* Products */,
 			);
@@ -255,9 +264,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEAD584215EB56B1005E4C73 /* русский как иностранный */ = {
+		CEAD584215EB56B1005E4C73 /* русский как иностранный */ = {
 			isa = PBXGroup;
 			children = (
+				CEB731F615ED32D8002AB5D9 /* Picture_word */,
+				CEB731F015ED32A7002AB5D9 /* Grouping */,
 				CE5485A615ECE85E009D59BB /* TrainingMenu */,
 				CE5485A515ECE83A009D59BB /* Listening */,
 				CE5485A415ECE817009D59BB /* ViewController */,
@@ -265,6 +276,7 @@
 				CEAD585E15EB577E005E4C73 /* SoundPlayer.m */,
 				CEAD584315EB56B1005E4C73 /* Supporting Files */,
 			);
+			name = "русский как иностранный";
 			path = "русский как иностранный";
 			sourceTree = "<group>";
 		};
@@ -274,7 +286,6 @@
 				CEAD586E15EB5BBD005E4C73 /* audio */,
 				CEAD586F15EB5BBD005E4C73 /* images */,
 				CEAD587015EB5BBD005E4C73 /* UI */,
-				CEAD584415EB56B1005E4C73 /* русский как иностранный-Info.plist */,
 				CEAD584515EB56B1005E4C73 /* InfoPlist.strings */,
 				CEAD584815EB56B1005E4C73 /* main.m */,
 				CEAD584A15EB56B1005E4C73 /* русский как иностранный-Prefix.pch */,
@@ -358,6 +369,26 @@
 			);
 			path = UI;
 			sourceTree = SOURCE_ROOT;
+		};
+		CEB731F015ED32A7002AB5D9 /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				CEB731F115ED32C6002AB5D9 /* GroupingViewController.h */,
+				CEB731F215ED32C6002AB5D9 /* GroupingViewController.m */,
+				CEB731F315ED32C6002AB5D9 /* GroupingViewController.xib */,
+			);
+			name = Grouping;
+			sourceTree = "<group>";
+		};
+		CEB731F615ED32D8002AB5D9 /* Picture_word */ = {
+			isa = PBXGroup;
+			children = (
+				CEB731F715ED32F4002AB5D9 /* Picture_wordViewController.h */,
+				CEB731F815ED32F4002AB5D9 /* Picture_wordViewController.m */,
+				CEB731F915ED32F4002AB5D9 /* Picture_wordViewController.xib */,
+			);
+			name = Picture_word;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -471,6 +502,8 @@
 				CE5485A015ECE800009D59BB /* FilmViewController.xib in Resources */,
 				CE5485B315ECEBC3009D59BB /* ListeningViewController.xib in Resources */,
 				CEA55C6015ECFCA9003442F7 /* audio.mp3 in Resources */,
+				CEB731F515ED32C6002AB5D9 /* GroupingViewController.xib in Resources */,
+				CEB731FB15ED32F4002AB5D9 /* Picture_wordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +522,8 @@
 				CEB90C5C15ECB3A8000601E9 /* TrainingSubMenuViewController.m in Sources */,
 				CE54859F15ECE800009D59BB /* FilmViewController.m in Sources */,
 				CE5485B215ECEBC3009D59BB /* ListeningViewController.m in Sources */,
+				CEB731F415ED32C6002AB5D9 /* GroupingViewController.m in Sources */,
+				CEB731FA15ED32F4002AB5D9 /* Picture_wordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +533,7 @@
 		CEAD584515EB56B1005E4C73 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEAD584615EB56B1005E4C73 /* en */,
+				CEB731EE15ED3095002AB5D9 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -506,7 +541,7 @@
 		CEAD585115EB56B1005E4C73 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEAD585215EB56B1005E4C73 /* en */,
+				CEB731EF15ED3095002AB5D9 /* ru */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -534,7 +569,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -552,7 +587,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -566,7 +601,7 @@
 				GCC_PREFIX_HEADER = "русский как иностранный/русский как иностранный-Prefix.pch";
 				INFOPLIST_FILE = "русский как иностранный/русский как иностранный-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "русский как иностранный";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -578,7 +613,7 @@
 				GCC_PREFIX_HEADER = "русский как иностранный/русский как иностранный-Prefix.pch";
 				INFOPLIST_FILE = "русский как иностранный/русский как иностранный-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "русский как иностранный";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

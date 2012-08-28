@@ -109,6 +109,8 @@
         [playButton setImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
     }
     [[SoundPlayer sharedPlayer] setCurrentTime:@"audio.mp3" withTime:0];
+    NSArray * controllers = self.navigationController.viewControllers;
+    [self.navigationController popToViewController:[controllers objectAtIndex:2] animated:YES];
 }
 - (IBAction)nextPageSelector:(id)sender {
     self.filmViewController = [[FilmViewController alloc]initWithNibName:@"FilmViewController" bundle:nil];

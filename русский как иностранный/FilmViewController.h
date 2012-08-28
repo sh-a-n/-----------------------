@@ -39,5 +39,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bigImage6;
 @property (weak, nonatomic) IBOutlet UIImageView *bigImage7;
 - (IBAction)backButtonSelector:(id)sender;
+- (IBAction)okButtonSelector:(id)sender;
 
 @end

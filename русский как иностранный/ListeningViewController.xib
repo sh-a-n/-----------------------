@@ -233,6 +233,7 @@
 						<string key="NSFrame">{{0, 256}, {480, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -264,7 +265,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Label</string>
+						<string key="IBUIText">00:00</string>
 						<reference key="IBUITextColor" ref="127108148"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -443,9 +444,9 @@
 							<reference ref="1030896345"/>
 							<reference ref="880378319"/>
 							<reference ref="809646099"/>
-							<reference ref="540700094"/>
 							<reference ref="528645364"/>
 							<reference ref="10700664"/>
+							<reference ref="540700094"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>

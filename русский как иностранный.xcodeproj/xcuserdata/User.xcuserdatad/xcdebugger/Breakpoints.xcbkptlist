@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
-         timestampString = "367854141.003244"
+         timestampString = "367867849.749278"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "100"
-         endingLineNumber = "100"
+         startingLineNumber = "104"
+         endingLineNumber = "104"
          landmarkName = "-tableView:cellForRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
-         timestampString = "367854141.003244"
+         timestampString = "367867849.749278"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "88"
-         endingLineNumber = "88"
+         startingLineNumber = "92"
+         endingLineNumber = "92"
          landmarkName = "-tableView:numberOfRowsInSection:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
-         timestampString = "367854141.003244"
+         timestampString = "367867849.749278"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "107"
-         endingLineNumber = "107"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-tableView:didSelectRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/TrainingSubMenuViewController.m"
-         timestampString = "367854141.003244"
+         timestampString = "367867849.749278"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "141"
-         endingLineNumber = "141"
+         startingLineNumber = "149"
+         endingLineNumber = "149"
          landmarkName = "-tick"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1080;&#774; &#1082;&#1072;&#1082; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1080;&#774;/FilmViewController.m"
-         timestampString = "367861622.553716"
+         timestampString = "367868091.967575"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "128"
-         endingLineNumber = "128"
+         startingLineNumber = "133"
+         endingLineNumber = "133"
          landmarkName = "-singleTapGestureCaptured:"
          landmarkType = "5">
       </FileBreakpoint>

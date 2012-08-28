@@ -10,6 +10,8 @@
 
 @class ListeningViewController;
 @class FilmViewController;
+@class GroupingViewController;
+@class Picture_wordViewController;
 
 @interface TrainingSubMenuViewController : UIViewController
 {
@@ -19,6 +21,8 @@
 
 @property (strong, nonatomic) ListeningViewController * listeningViewController;
 @property (strong, nonatomic) FilmViewController * filmViewController;
+@property (strong, nonatomic) GroupingViewController * groupingViewController;
+@property (strong, nonatomic) Picture_wordViewController * picture_wordViewController;
 @property (nonatomic, retain) NSData * startData;
 @property (nonatomic, retain) NSTimer * timer;
 @property (weak, nonatomic) IBOutlet UILabel *navigationBarLabel;
