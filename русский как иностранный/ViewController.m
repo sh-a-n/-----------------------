@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "TrainingMenuViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize trainingMenuViewController;
 @synthesize bigLabel;
 @synthesize smallLabel;
 @synthesize trainingButton;
@@ -52,4 +54,8 @@
     return ((interfaceOrientation != UIInterfaceOrientationPortrait)&&(interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown));
 }
 
+- (IBAction)trainingButtonTap:(id)sender {
+    self.trainingMenuViewController = [[TrainingMenuViewController alloc]initWithNibName:@"TrainingMenuViewController" bundle:nil];
+    [self.navigationController pushViewController:trainingMenuViewController animated:YES];
+}
 @end

@@ -47,6 +47,10 @@
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">background.png</string>
+						</object>
 					</object>
 					<object class="IBUILabel" id="564814706">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -212,7 +216,6 @@
 						<string key="NSFrame">{{140, 245}, {200, 32}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="148201370"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -313,6 +316,15 @@
 					</object>
 					<int key="connectionID">25</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">trainingButtonTap:</string>
+						<reference key="source" ref="968595156"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">26</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -340,11 +352,11 @@
 							<reference ref="310375902"/>
 							<reference ref="564814706"/>
 							<reference ref="100285118"/>
-							<reference ref="968595156"/>
 							<reference ref="795741058"/>
 							<reference ref="599103275"/>
 							<reference ref="770642523"/>
 							<reference ref="412324957"/>
+							<reference ref="968595156"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -409,13 +421,24 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">25</int>
+			<int key="maxID">26</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
 					<string key="className">ViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">trainingButtonTap:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">trainingButtonTap:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">trainingButtonTap:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="aboutButton">UIButton</string>
 						<string key="bigLabel">UILabel</string>
@@ -470,6 +493,10 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="NS.key.0">background.png</string>
+			<string key="NS.object.0">{480, 320}</string>
+		</object>
 		<string key="IBCocoaTouchPluginVersion">1181</string>
 	</data>
 </archive>
